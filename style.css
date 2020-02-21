@@ -1,0 +1,16 @@
+body{
+    font-family: 'Roboto', ;
+}
+h1{
+    font-size: 50px;
+}
+.font-heighlit{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
