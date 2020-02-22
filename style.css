@@ -39,10 +39,11 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.experence{
+.single-experence{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80%;
+    height: 60%;
+    background-color: white;
 }
 .Experence{
     background-image: url(images/exp-bg.png);
@@ -51,9 +52,19 @@ section{
 
 }
 #full-stack{
-    border-left: 10px black;
+    border-left: 10px solid skyblue;
+    border-image: linear-gradient(180 deg, lightsalmon,tomato);
+    border-image-slice: 1;
     
 }
 #baby-web{
-    border-left: burlywood;
+    border-left:10px solid greenyellow;
+    border-image: linear-gradient(180 deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    color: skyblue;
 }
